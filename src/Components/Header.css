@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header a {
+  font-size: xx-large;
+  text-decoration: none;
+  box-shadow: none;
+  color: black;
+}
+
+.logo {
+  max-width: 45px;
+  max-height: auto;
+}
