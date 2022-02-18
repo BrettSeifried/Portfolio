@@ -22,10 +22,7 @@ export default function Header() {
         />
       </a>
       <a href={'mailto:seifriedbrett@gmail.com'}>
-        <img
-          className="logo"
-          src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png"
-        />
+        <img className="logo" src="https://cdn-icons-png.flaticon.com/512/281/281769.png" />
       </a>
     </div>
   );

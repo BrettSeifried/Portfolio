@@ -1,11 +1,11 @@
 # Plan
 
     [] Header // Name // Icons for Links
+        - remove name and put in body with small description?
     [] Body
         [] Contact Info
         [] About me
         [] Projects
-        [] Links
         [] Resume
         [] Hobbies
 
