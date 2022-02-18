@@ -8,14 +8,18 @@ import './Body.css';
 
 export default function Body() {
   return (
-    <div className="body">
+    <div>
       <h1>BRETT SEIFRIED</h1>
       <a>Father | Veteran | Developer</a>
-      <AboutMe />
-      <Contact />
-      <Projects />
-      <Resume />
-      <Hobbies />
+      <div className="body">
+        <AboutMe />
+        <Contact />
+        <Projects />
+        <Resume />
+        <Hobbies />
+        <div className="holder6"></div>
+        <div className="holder7"></div>
+      </div>
     </div>
   );
 }
