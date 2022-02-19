@@ -13,6 +13,8 @@ body h1 {
 }
 
 .aboutme {
+  display: flex;
+  align-items: flex-end;
   position: absolute;
   will-change: transform, width, height, opacity;
   opacity: 1;
@@ -26,7 +28,9 @@ body h1 {
   opacity: 1;
 }
 
-.contact {
+.project3 {
+  display: flex;
+  align-items: flex-end;
   position: absolute;
   will-change: transform, width, height, opacity;
   opacity: 1;
@@ -37,7 +41,13 @@ body h1 {
   background-color: #e3d1a7;
 }
 
-.hobbies {
+.project3:hover h1 {
+  opacity: 1;
+}
+
+.project1 {
+  display: flex;
+  align-items: flex-end;
   position: absolute;
   will-change: transform, width, height, opacity;
   opacity: 1;
@@ -48,7 +58,13 @@ body h1 {
   background-color: #e3d1a7;
 }
 
+.project1:hover h1 {
+  opacity: 1;
+}
+
 .resume {
+  display: flex;
+  align-items: flex-end;
   position: absolute;
   will-change: transform, width, height, opacity;
   opacity: 1;
@@ -59,7 +75,13 @@ body h1 {
   background-color: #e3d1a7;
 }
 
+.resume:hover h1 {
+  opacity: 1;
+}
+
 .projects {
+  display: flex;
+  align-items: flex-end;
   position: absolute;
   will-change: transform, width, height, opacity;
   opacity: 1;
@@ -70,7 +92,13 @@ body h1 {
   background-color: #e3d1a7;
 }
 
-.holder6 {
+.projects:hover h1 {
+  opacity: 1;
+}
+
+.project2 {
+  display: flex;
+  align-items: flex-end;
   position: absolute;
   will-change: transform, width, height, opacity;
   opacity: 1;
@@ -81,7 +109,13 @@ body h1 {
   background-color: #e3d1a7;
 }
 
-.holder7 {
+.project2:hover h1 {
+  opacity: 1;
+}
+
+.contact {
+  display: flex;
+  align-items: flex-end;
   position: absolute;
   will-change: transform, width, height, opacity;
   opacity: 1;
@@ -90,4 +124,8 @@ body h1 {
   z-index: 6;
   transform: translate3d(822px, 372px, 0px);
   background-color: #e3d1a7;
+}
+
+.contact:hover h1 {
+  opacity: 1;
 }

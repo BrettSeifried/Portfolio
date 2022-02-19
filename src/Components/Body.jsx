@@ -1,7 +1,9 @@
 import React from 'react';
 import AboutMe from '../Views/AboutMe';
 import Contact from '../Views/Contact';
-import Hobbies from '../Views/Hobbies';
+import Project1 from '../Views/Project1';
+import Project2 from '../Views/Project2';
+import Project3 from '../Views/Project3';
 import Projects from '../Views/Projects';
 import Resume from '../Views/Resume';
 import './Body.css';
@@ -16,9 +18,9 @@ export default function Body() {
         <Contact />
         <Projects />
         <Resume />
-        <Hobbies />
-        <div className="holder6"></div>
-        <div className="holder7"></div>
+        <Project1 />
+        <Project2 />
+        <Project3 />
       </div>
     </div>
   );
