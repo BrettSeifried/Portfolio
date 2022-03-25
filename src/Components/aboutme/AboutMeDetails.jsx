@@ -1,6 +1,6 @@
 import React from 'react';
-import computer from '../assets/computer.png';
 import './aboutme.css';
+import X from '../../assets/X.png';
 
 export default function AboutMeDetails() {
   return (
@@ -21,7 +21,7 @@ export default function AboutMeDetails() {
       <h3>
         Feel free to explore my website and don’t hesitate if you want to get into contact with me!
       </h3>
-      {/* <img className="computer" src={computer}></img> */}
+      <img src={X} className="X"></img>
     </div>
   );
 }

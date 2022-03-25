@@ -1,11 +1,22 @@
 import React from 'react';
+import { useState } from 'react';
+import ProjectTwoDetails from '../Components/projectTwo/ProjectTwoDetails';
+import DM from '../assets/DM.png';
 
-export default function Project2() {
+export default function ProjectTwo() {
+  const [project2, setStyle] = useState('project2');
+  const [hidden, setHidden] = useState('hidden');
+  const ToggleClass = () => {
+    setStyle(!project2);
+    setHidden(!hidden);
+  };
   return (
-    <div className="project2">
-      <div>
-        <h1>Project2 Title</h1>
-        <p>Short Descrip</p>
+    <div onClick={ToggleClass} className={project2 ? 'project2' : 'project2Big'}>
+      <h1>Github Messenger</h1>
+      <p>React | API | Context | Custom Hooks</p>
+      <img className="dm" src={DM} />
+      <div className={hidden ? 'hidden' : 'project2Show'}>
+        <ProjectTwoDetails />
       </div>
     </div>
   );

@@ -14,7 +14,7 @@
 body h1 {
   opacity: 0.5;
 }
-
+/*AboutMe*/
 .aboutme {
   display: flex;
   flex-direction: column;
@@ -63,6 +63,7 @@ body h1 {
   animation-name: fadeIn;
   animation-duration: 2s;
 }
+/* ------------------- */
 
 .project3 {
   display: flex;
@@ -134,7 +135,9 @@ body h1 {
 
 .project2 {
   display: flex;
+  flex-direction: column;
   align-items: flex-end;
+  justify-content: flex-end;
   position: absolute;
   will-change: transform, width, height, opacity;
   opacity: 1;
@@ -143,10 +146,38 @@ body h1 {
   z-index: 1;
   transform: translate3d(1229px, 6px, 0px);
   background-color: #e3d1a7;
+  transition: 1s;
 }
 
 .project2:hover h1 {
   opacity: 1;
+}
+.project2:hover img {
+  opacity: 1;
+}
+
+.project2Big {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 1634px;
+  height: 614px;
+  background-color: #e3d1a7;
+  transition: 1s;
+}
+.project2Big h1 {
+  opacity: 1;
+}
+
+.project2Show {
+  display: flex;
+  position: relative;
+  transition: 1.5s;
+  animation-name: fadeIn;
+  animation-duration: 2s;
 }
 
 .contact {
@@ -173,6 +204,33 @@ button {
 .hidden {
   display: none;
   transition: 1.5s;
+}
+
+.githubLink {
+  max-width: 75px;
+  max-height: auto;
+  opacity: 0.6;
+  padding-right: 1%;
+}
+
+.githubLink:hover {
+  opacity: 1;
+}
+
+.urlLink {
+  max-width: 75px;
+  max-height: auto;
+  opacity: 0.6;
+}
+.urlLink:hover {
+  opacity: 1;
+}
+
+.X {
+  max-width: 65px;
+  position: absolute;
+  top: -40%;
+  right: 1%;
 }
 
 @keyframes fadeIn {
