@@ -11,8 +11,6 @@ import './Body.css';
 export default function Body() {
   return (
     <div>
-      <h1>BRETT SEIFRIED</h1>
-      <a>Father | Veteran | Developer</a>
       <div className="body">
         <AboutMe />
         <Contact />
