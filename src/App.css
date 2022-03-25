@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   background-color: #3f6c5b;
 }
@@ -39,4 +43,13 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.box {
+  @apply bg-indigo-700
+		text-gray-100
+		min-w-full
+		h-32
+		min-h-full
+		rounded;
 }
