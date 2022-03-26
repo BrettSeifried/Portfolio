@@ -282,3 +282,8 @@ button {
     opacity: 0;
   }
 }
+
+.padding {
+  padding: 15px;
+  line-height: 0px;
+}

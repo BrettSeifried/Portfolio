@@ -13,8 +13,8 @@ export default function AboutMe() {
 
   return (
     <div onClick={ToggleClass} className={aboutme ? 'aboutme' : 'aboutmeBig'}>
-      <h1>About Me</h1>
-      <p>Father | Developer | Veteran</p>
+      <h1 className="padding">About Me</h1>
+      <p className="padding">Father | Developer | Veteran</p>
       <img className="computerSmall" src={computer} />
       <div className={hidden ? 'hidden' : 'aboutmeShow'}>
         <AboutMeDetails />

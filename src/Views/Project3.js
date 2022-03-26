@@ -13,8 +13,8 @@ export default function Project3() {
 
   return (
     <div onClick={ToggleClass} className={project3 ? 'project3' : 'project3Big'}>
-      <h1>Alchemy Tech Swap</h1>
-      <p>React | Supabase | 4-Person team | 4 day-Sprint</p>
+      <h1 className="padding">Alchemy Tech Swap</h1>
+      <p className="padding">React | Supabase | 4-Person team | 4 day-Sprint</p>
       <img className="shopping" src={shopping} />
       <div className={hidden ? 'hidden' : 'project3Show'}>
         <ProjectThreeDetails />
