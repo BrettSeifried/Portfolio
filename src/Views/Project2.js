@@ -12,8 +12,8 @@ export default function ProjectTwo() {
   };
   return (
     <div onClick={ToggleClass} className={project2 ? 'project2' : 'project2Big'}>
-      <h1>Github Messenger</h1>
-      <p>React | API | Context | Custom Hooks</p>
+      <h1 className="padding">Github Messenger</h1>
+      <p className="padding">React | API | Context | Custom Hooks</p>
       <img className="dm" src={DM} />
       <div className={hidden ? 'hidden' : 'project2Show'}>
         <ProjectTwoDetails />

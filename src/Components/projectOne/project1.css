@@ -1,57 +1,58 @@
-.project2Detail {
+.project1:hover h1 {
+  opacity: 1;
+}
+
+.project1Detail {
   display: grid;
   padding-left: 4rem;
   padding-right: 4rem;
 }
 
-.p2Body {
+.p1Body {
   padding-right: 50%;
 }
 
-.dm {
+.bookstore {
   display: flex;
   position: absolute;
   top: 5%;
-  right: 10%;
-  height: 25%;
+  right: 65%;
+  height: 50%;
   padding: 0px;
   opacity: 0.6;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
-.messegeImg {
+.ermImg {
   position: absolute;
-  height: 125%;
-  right: 8%;
-  top: 22%;
+  height: 140%;
+  right: 12%;
+  top: 0%;
   border: 2px solid rgb(92, 91, 91);
 }
 
-.project2 {
+.project1 {
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-end;
   position: absolute;
   will-change: transform, width, height, opacity;
   opacity: 1;
   width: 25.125rem;
-  height: 360px;
+  height: 224px;
   z-index: 1;
-  transform: translate3d(1229px, 6px, 0px);
+  transform: translate3d(414px, 6px, 0px);
   background-color: #e3d1a7;
-  transition: 1s;
 }
 
-.project2:hover h1 {
+.project1:hover h1 {
   opacity: 1;
 }
-.project2:hover img {
+.project1:hover img {
   opacity: 1;
 }
 
-.project2Big {
+.project1Big {
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -63,11 +64,11 @@
   background-color: #e3d1a7;
   transition: 1s;
 }
-.project2Big h1 {
+.project1Big h1 {
   opacity: 1;
 }
 
-.project2Show {
+.project1Show {
   display: flex;
   position: relative;
   transition: 1.5s;

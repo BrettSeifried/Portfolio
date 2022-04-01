@@ -1,31 +1,38 @@
-.aboutmeDetail {
+.resume {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  will-change: transform, width, height, opacity;
+  opacity: 1;
+  width: 25.125rem;
+  height: 372px;
+  z-index: 1;
+  transform: translate3d(414px, 236px, 0px);
+  background-color: #e3d1a7;
+}
+
+.resume:hover h1 {
+  opacity: 1;
+}
+
+.resumeDetail {
   padding-left: 4rem;
   padding-right: 4rem;
 }
 
-.computer {
+.resumeSmall {
   display: flex;
   position: absolute;
-  top: 112%;
-  right: 0%;
-  height: 50%;
-  padding: 0px;
-  opacity: 0.6;
-}
-
-.computerSmall {
-  display: flex;
-  position: absolute;
-  top: 75%;
-  right: 0%;
-  height: 25%;
+  top: 8%;
+  right: 5%;
+  height: 35%;
   padding: 0px;
   opacity: 0.6;
   z-index: -1;
   opacity: 0.5;
 }
 
-.computerSmall:hover {
+.resumeSmall:hover {
   opacity: 1;
 }
 /*AboutMe*/
@@ -45,14 +52,14 @@
   background-color: #e3d1a7;
   transition: 1s;
 }
-.aboutme:hover h1 {
+.resume:hover h1 {
   opacity: 1;
 }
-.aboutme:hover img {
+.resume:hover img {
   opacity: 1;
 }
 
-.aboutmeBig {
+.resumeBig {
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -65,15 +72,29 @@
   transition: 1s;
 }
 
-.aboutmeBig h1 {
+.resumeBig h1 {
   opacity: 1;
 }
 
-/* AboutMe Details */
-.aboutmeShow {
+.resumeShow {
   display: flex;
   position: relative;
   transition: 1.5s;
   animation-name: fadeIn;
   animation-duration: 2s;
+}
+
+.resumeImg {
+  display: flex;
+  position: absolute;
+  top: -5rem;
+  right: -57rem;
+  height: 30rem;
+}
+
+.Xresume {
+  max-width: 65px;
+  position: absolute;
+  top: -7rem;
+  right: -101rem;
 }
