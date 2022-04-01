@@ -1,0 +1,79 @@
+.project4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  will-change: transform, width, height, opacity;
+  opacity: 1;
+  width: 25.125rem;
+  height: 360px;
+  z-index: 1;
+  transform: translate3d(822px, 6px, 0px);
+  background-color: #e3d1a7;
+}
+
+.project4:hover h1 {
+  opacity: 1;
+}
+
+.project4Detail {
+  display: grid;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.p4Body {
+  padding-right: 50%;
+}
+
+.shield {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  height: 50%;
+  padding: 0px;
+  opacity: 0.6;
+  z-index: -4;
+  opacity: 0.4;
+}
+
+.hyrule {
+  position: absolute;
+  height: 160%;
+  right: 12%;
+  top: -20%;
+  border: 2px solid rgb(92, 91, 91);
+}
+
+.project4:hover h1 {
+  opacity: 1;
+}
+.project4:hover img {
+  opacity: 1;
+}
+
+.project4Big {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 1634px;
+  height: 614px;
+  background-color: #e3d1a7;
+  transition: 1s;
+}
+.project4Big h1 {
+  opacity: 1;
+}
+
+.project4Show {
+  display: flex;
+  position: relative;
+  transition: 1.5s;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}

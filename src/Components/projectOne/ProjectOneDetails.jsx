@@ -8,7 +8,7 @@ import X from '../../assets/X.png';
 export default function ProjectOneDetails() {
   return (
     <div className="project1Detail">
-      <h1>Messenger with use of an API</h1>
+      <h1>Backend API for a Bookstore</h1>
       <h3 className="p1Body">
         4-person, 2-day sprint in creating a backend API. Using a test first development process, we
         created a list of books, authors, reviews and reviewers. Using controllers, middleware,
