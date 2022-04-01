@@ -11,6 +11,7 @@
   z-index: 1;
   transform: translate3d(822px, 6px, 0px);
   background-color: #e3d1a7;
+  transition: 1s;
 }
 
 .project4:hover h1 {
