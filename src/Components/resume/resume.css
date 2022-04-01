@@ -9,6 +9,7 @@
   z-index: 1;
   transform: translate3d(414px, 236px, 0px);
   background-color: #e3d1a7;
+  transition: 1s;
 }
 
 .resume:hover h1 {

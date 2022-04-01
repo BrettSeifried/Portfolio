@@ -9,6 +9,7 @@
   z-index: 6;
   transform: translate3d(822px, 372px, 0px);
   background-color: #e3d1a7;
+  transition: 1s;
 }
 
 .contactDetail {
