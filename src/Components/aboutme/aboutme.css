@@ -28,3 +28,52 @@
 .computerSmall:hover {
   opacity: 1;
 }
+/*AboutMe*/
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  will-change: transform, width, height, opacity;
+  opacity: 1;
+  /* width: 402px; */
+  width: 25.125rem;
+  height: 360px;
+  z-index: 1;
+  transform: translate3d(6px, 6px, 0px);
+  background-color: #e3d1a7;
+  transition: 1s;
+}
+.aboutme:hover h1 {
+  opacity: 1;
+}
+.aboutme:hover img {
+  opacity: 1;
+}
+
+.aboutmeBig {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 1634px;
+  height: 614px;
+  background-color: #e3d1a7;
+  transition: 1s;
+}
+
+.aboutmeBig h1 {
+  opacity: 1;
+}
+
+/* AboutMe Details */
+.aboutmeShow {
+  display: flex;
+  position: relative;
+  transition: 1.5s;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
