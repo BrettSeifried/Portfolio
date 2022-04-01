@@ -15,57 +15,6 @@ body h1 {
   opacity: 0.5;
 }
 
-.resume {
-  display: flex;
-  align-items: flex-end;
-  position: absolute;
-  will-change: transform, width, height, opacity;
-  opacity: 1;
-  width: 25.125rem;
-  height: 372px;
-  z-index: 1;
-  transform: translate3d(414px, 236px, 0px);
-  background-color: #e3d1a7;
-}
-
-.resume:hover h1 {
-  opacity: 1;
-}
-
-.projects {
-  display: flex;
-  align-items: flex-end;
-  position: absolute;
-  will-change: transform, width, height, opacity;
-  opacity: 1;
-  width: 25.125rem;
-  height: 360px;
-  z-index: 1;
-  transform: translate3d(822px, 6px, 0px);
-  background-color: #e3d1a7;
-}
-
-.projects:hover h1 {
-  opacity: 1;
-}
-
-.contact {
-  display: flex;
-  align-items: flex-end;
-  position: absolute;
-  will-change: transform, width, height, opacity;
-  opacity: 1;
-  width: 810px;
-  height: 236px;
-  z-index: 6;
-  transform: translate3d(822px, 372px, 0px);
-  background-color: #e3d1a7;
-}
-
-.contact:hover h1 {
-  opacity: 1;
-}
-
 button {
   display: none;
 }

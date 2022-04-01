@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import computer from '../assets/computer.png';
+import contactImg from '../assets/contactImg.png';
 import ContactDetails from '../Components/contact/ContactDetails';
 
 export default function Contact() {
@@ -15,7 +15,7 @@ export default function Contact() {
     <div onClick={ToggleClass} className={contact ? 'contact' : 'contactBig'}>
       <h1 className="padding">Contact</h1>
       <p className="padding">Email | LinkedIn</p>
-      <img className="computerSmall" src={computer} />
+      <img className="contactSmall" src={contactImg} />
       <div className={hidden ? 'hidden' : 'contactShow'}>
         <ContactDetails />
       </div>
