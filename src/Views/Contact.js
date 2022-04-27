@@ -10,11 +10,6 @@ export default function Contact() {
   const [XStyle, setXStyle] = useState('hidden');
   const [image, setImage] = useState('contactSmall');
 
-  // const ToggleClass = () => {
-  //   setStyle(!contact);
-  //   setHidden(!hidden);
-  // };
-
   function handleClick() {
     setStyle('contactBig');
     setHidden(null);

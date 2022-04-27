@@ -10,11 +10,6 @@ export default function ProjectOne() {
   const [XStyle, setXStyle] = useState('hidden');
   const [image, setImage] = useState('bookstore');
 
-  // const ToggleClass = () => {
-  //   setStyle(!project1);
-  //   setHidden(!hidden);
-  // };
-
   function handleClick() {
     setStyle('project1Big');
     setHidden(null);

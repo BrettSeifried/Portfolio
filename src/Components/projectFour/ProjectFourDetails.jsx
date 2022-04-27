@@ -3,7 +3,6 @@ import './project4.css';
 import github from '../../assets/github.png';
 import hyrule from '../../assets/hyrule.png';
 import link from '../../assets/link.png';
-import X from '../../assets/X.png';
 
 export default function ProjectOneDetails() {
   return (
@@ -26,7 +25,6 @@ export default function ProjectOneDetails() {
         </a>
         <img className="hyrule" src={hyrule}></img>
       </div>
-      <img src={X} className="X"></img>
     </div>
   );
 }
