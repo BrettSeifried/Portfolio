@@ -24,11 +24,23 @@
   opacity: 0.4;
 }
 
+.bookstoreBig {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  right: 55%;
+  height: 50%;
+  padding: 0px;
+  opacity: 0.6;
+  z-index: -1;
+  opacity: 0.4;
+}
+
 .ermImg {
   position: absolute;
-  height: 140%;
-  right: 12%;
-  top: 0%;
+  height: 82%;
+  right: 8%;
+  top: 7%;
   border: 2px solid rgb(92, 91, 91);
 }
 

@@ -6,9 +6,9 @@
 .computer {
   display: flex;
   position: absolute;
-  top: 112%;
+  top: 65%;
   right: 0%;
-  height: 50%;
+  height: 35%;
   padding: 0px;
   opacity: 0.6;
 }

@@ -5,7 +5,7 @@
 }
 
 .p2Body {
-  padding-right: 50%;
+  padding-right: 65%;
 }
 
 .dm {
@@ -13,18 +13,30 @@
   position: absolute;
   top: 5%;
   right: 10%;
-  height: 25%;
+  height: 40%;
   padding: 0px;
   opacity: 0.6;
   z-index: -1;
   opacity: 0.5;
 }
 
-.messegeImg {
+.dmBig {
+  display: flex;
   position: absolute;
-  height: 125%;
-  right: 8%;
-  top: 22%;
+  top: 60%;
+  right: 68%;
+  height: 37%;
+  padding: 0px;
+  opacity: 0.6;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.letsgo {
+  position: absolute;
+  height: 70%;
+  right: 4%;
+  top: 16%;
   border: 2px solid rgb(92, 91, 91);
 }
 

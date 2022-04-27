@@ -11,9 +11,21 @@
 .shopping {
   display: flex;
   position: absolute;
-  top: 70%;
+  top: 60%;
   right: 65%;
-  height: 25%;
+  height: 40%;
+  padding: 0px;
+  opacity: 0.6;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.shoppingBig {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 58%;
+  height: 50%;
   padding: 0px;
   opacity: 0.6;
   z-index: -1;
@@ -22,23 +34,23 @@
 
 .techSwapImg {
   position: absolute;
-  height: 160%;
-  right: 36%;
-  top: -25%;
+  height: 80%;
+  right: 35%;
+  top: 9%;
   border: 2px solid rgb(92, 91, 91);
 }
 .techSwapImg1 {
   position: absolute;
-  height: 160%;
-  right: 21%;
-  top: -25%;
+  height: 80%;
+  right: 20%;
+  top: 9%;
   border: 2px solid rgb(92, 91, 91);
 }
 .techSwapImg2 {
   position: absolute;
-  height: 160%;
-  right: 6%;
-  top: -25%;
+  height: 80%;
+  right: 5%;
+  top: 9%;
   border: 2px solid rgb(92, 91, 91);
 }
 
@@ -54,7 +66,7 @@
   z-index: 1;
   transform: translate3d(6px, 372px, 0px);
   background-color: #e3d1a7;
-  transform: 1s;
+  transition: 1s;
 }
 
 .project3:hover h1 {

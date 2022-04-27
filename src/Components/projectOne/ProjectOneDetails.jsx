@@ -3,7 +3,6 @@ import './project1.css';
 import github from '../../assets/github.png';
 import ERM from '../../assets/ERM.png';
 import link from '../../assets/link.png';
-import X from '../../assets/X.png';
 
 export default function ProjectOneDetails() {
   return (
@@ -31,7 +30,6 @@ export default function ProjectOneDetails() {
         </a>
         <img className="ermImg" src={ERM}></img>
       </div>
-      <img src={X} className="X"></img>
     </div>
   );
 }
