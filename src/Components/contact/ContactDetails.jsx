@@ -1,6 +1,5 @@
 import React from 'react';
 import './contact.css';
-import X from '../../assets/X.png';
 
 export default function ContactDetails() {
   return (
@@ -28,7 +27,6 @@ export default function ContactDetails() {
           />
         </a>
       </div>
-      <img src={X} className="Xcontact"></img>
     </div>
   );
 }

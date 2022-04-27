@@ -19,7 +19,7 @@ export default function AboutMe() {
     setStyle('aboutmeBig');
     setHidden(null);
     setXStyle('X');
-    setImage('hidden');
+    setImage('computer');
   }
 
   function minimize() {
@@ -30,7 +30,7 @@ export default function AboutMe() {
   }
 
   return (
-    <div>
+    <div className="relative">
       <img onClick={minimize} src={X} className={XStyle}></img>
       <div onClick={handleClick} className={style}>
         <h1 className="padding">About Me</h1>
