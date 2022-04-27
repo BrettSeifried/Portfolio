@@ -5,7 +5,6 @@ import techSwap from '../../assets/techSwap.png';
 import techSwap1 from '../../assets/techSwap1.png';
 import techSwap2 from '../../assets/techSwap2.png';
 import link from '../../assets/link.png';
-import X from '../../assets/X.png';
 
 export default function ProjectThreeDetails() {
   return (
@@ -32,7 +31,6 @@ export default function ProjectThreeDetails() {
         <img className="techSwapImg1" src={techSwap1}></img>
         <img className="techSwapImg2" src={techSwap2}></img>
       </div>
-      <img src={X} className="X"></img>
     </div>
   );
 }
