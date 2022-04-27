@@ -1,7 +1,6 @@
 import React from 'react';
 import './resume.css';
 import websiteResume from '../../assets/websiteResume.png';
-import X from '../../assets/X.png';
 
 export default function ResumeDetails() {
   return (
@@ -14,7 +13,6 @@ export default function ResumeDetails() {
       >
         <img className="resumeImg" src={websiteResume} />
       </a>
-      <img src={X} className="Xresume"></img>
     </div>
   );
 }

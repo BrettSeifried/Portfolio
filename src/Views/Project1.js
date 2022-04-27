@@ -14,7 +14,7 @@ export default function ProjectOne() {
     setStyle('project1Big');
     setHidden(null);
     setXStyle('X');
-    setImage('bookstore');
+    setImage('bookstoreBig');
   }
 
   function minimize() {

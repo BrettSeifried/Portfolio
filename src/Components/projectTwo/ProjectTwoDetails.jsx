@@ -7,7 +7,7 @@ import link from '../../assets/link.png';
 export default function ProjectTwoDetails() {
   return (
     <div className="project2Detail">
-      <h1>Messenger with use of an API</h1>
+      <h1>Tour Guide Travel App</h1>
       <h3 className="p2Body">
         4-person, 2-week Sprint. A tool for those who plan trips. Created all animations of planning
         page. Incorporated Yelp API on back-end and front-end. Passed all inputted user information

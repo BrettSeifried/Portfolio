@@ -14,7 +14,7 @@ export default function Project3() {
     setStyle('project3Big');
     setHidden(null);
     setXStyle('X');
-    setImage('shopping');
+    setImage('shoppingBig');
   }
 
   function minimize() {

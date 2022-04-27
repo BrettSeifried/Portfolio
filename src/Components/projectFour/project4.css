@@ -32,8 +32,20 @@
   display: flex;
   position: absolute;
   top: 45%;
-  right: 63%;
-  height: 50%;
+  right: 2%;
+  height: 56%;
+  padding: 0px;
+  opacity: 0.6;
+  z-index: -4;
+  opacity: 0.4;
+}
+
+.shieldBig {
+  display: flex;
+  position: absolute;
+  top: 42%;
+  right: 60%;
+  height: 65%;
   padding: 0px;
   opacity: 0.6;
   z-index: -4;

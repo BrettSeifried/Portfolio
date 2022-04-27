@@ -14,7 +14,7 @@ export default function ProjectFour() {
     setStyle('project4Big');
     setHidden(null);
     setXStyle('X');
-    setImage('shield');
+    setImage('shieldBig');
   }
 
   function minimize() {
