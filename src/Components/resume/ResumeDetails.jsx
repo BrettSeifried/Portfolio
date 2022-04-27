@@ -6,7 +6,7 @@ export default function ResumeDetails() {
   return (
     <div>
       <a
-        href="https://www.canva.com/design/DAE8r6k8Sjc/LDH2-76-QFdwvubedgyJRg/view"
+        href="https://www.canva.com/design/DAE8r6k8Sjc/view?utm_content=DAE8r6k8Sjc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
         download
         target="_blank"
         rel="noreferrer noopener"
