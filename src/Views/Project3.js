@@ -8,7 +8,7 @@ export default function Project3() {
   const [style, setStyle] = useState('project3');
   const [hidden, setHidden] = useState('hidden');
   const [XStyle, setXStyle] = useState('hidden');
-  const [image, setImage] = useState('contactSmall');
+  const [image, setImage] = useState('shopping');
 
   function handleClick() {
     setStyle('project3Big');
